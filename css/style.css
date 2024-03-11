@@ -94,6 +94,7 @@
     width: 100%;
     flex-basis: 100%;
     background-image: url(../img/mine.jpg);
+    overflow-y: scroll;
 }
 .col:nth-child(1){ 
     display: flex;
@@ -118,6 +119,7 @@
 .col:nth-child(n) {
     padding: 15px 40px;
 }
+
 .left-message {
     width: 60%;
     background-color: white;
