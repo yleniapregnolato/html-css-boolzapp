@@ -10,6 +10,8 @@
 :root {
     --back-ground-color-1: #009688;
     --background-coloror-2: #DADBD4;
+    --header-color: #EAEAEA;
+    --notification-color: #8EDAFC;
 }
 
 .wrapper {
@@ -17,8 +19,55 @@
     height: 100vh;
     background-color: var(--back-ground-color-1);
     background: linear-gradient( #009688 25%, #DADBD4 25%);
+    padding-top: 20px;
 }
 /* /common */
 
 /* utilities */
 /* /utulities */
+
+/* container */
+.container {
+    width: 80%;
+    height: 95%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    /* debug */
+    border: 1px solid black;
+}
+/* /container */
+
+/* contacts */
+.contacts {
+    width: 40%;
+    /* debug */
+    background-color: white;
+    border: 1px solid black;
+}
+
+#header-contacts {
+    background-color: var(--header-color);
+    height: 50px;
+}
+
+.notifications {
+    background-color: var(--notification-color);
+    height: 50px;
+}
+
+.search {
+    background-color: var(--header-color);
+    padding: 10px 10px;
+}
+.search-bar {
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+.message-contacts {
+    background-color: white;
+    padding: 10px 0;
+}
+/* /contacts */
