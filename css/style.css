@@ -247,6 +247,17 @@ li {
     padding: 15px;
 }
 
+.icon-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--icons-color);
+    padding-left: 15px;
+}
+
+.fa-chevron-down {
+    text-align: right;
+}
 footer {
     background-color: var(--footer-color);
     border-left: 1px solid var(--icons-color);
