@@ -78,6 +78,7 @@ hr {
 
 .avatar {
     display: flex;
+    padding-left: 5px;
 }
 
 .access {
@@ -248,19 +249,30 @@ li {
 footer {
     background-color: var(--footer-color);
     border-left: 1px solid var(--icons-color);
+    
 }
 
 .message-footer {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .message-bar-footer {
-    width: 100%;
+    width: 75%;
     height: 50px;
     border: none;
     border-radius: 5px;
+    padding: 10px;
+}
+
+.smile, .microphone {
+    color: var(--icons-color);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 /* /message */
