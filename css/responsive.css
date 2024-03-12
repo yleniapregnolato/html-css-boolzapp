@@ -71,6 +71,7 @@
 @media screen and (max-width: 428px) {    
     .message {
         width: 100%;
+        font-size: 0.65rem;
     }
 
     .col:nth-child(n) {
@@ -79,6 +80,7 @@
     .search-footer {
         width: 90%;
     }
+
 }
 
 /* /media query message */
