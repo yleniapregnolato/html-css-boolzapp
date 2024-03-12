@@ -28,6 +28,15 @@
     .message-contacts {
         padding: 0;
     }
+
+    .contacts ul {
+        display: none;
+    }
+
+   #header-contacts .avatar {
+    margin: 0 auto;
+   }
+
 }
 
 @media screen and (max-width: 428px) {

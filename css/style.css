@@ -6,6 +6,17 @@
   }
 
 
+body {
+    font-family: PT Sans;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
 /* common */
 :root {
     --back-ground-color-1: #009688;
@@ -50,21 +61,78 @@
 
 .header {
     height: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 #header-contacts {
     background-color: var(--header-color);
 }
 
+.avatar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.list-icons {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    color: var(--icons-color);
+}
+
+.header-message .avatar {
+    display: flex;
+    flex-direction: row;
+}
 .notifications {
     background-color: var(--notification-color);
     height: 65px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
 }
 
+.notification-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--notification-color);
+    background-color: white;
+}
+
+.text-notification {
+    font-size: 0.7rem;
+    padding-left: 10px;
+}
+
+.text-notification h4 {
+    text-decoration: underline;
+    color: var(--icons-color);
+}
 .search {
     background-color: var(--header-color);
     padding: 10px 10px;
+    display: flex;
 }
+
 .search-bar {
     width: 100%;
     height: 30px;
