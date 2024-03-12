@@ -17,6 +17,10 @@ img {
 li {
     list-style: none;
 }
+
+hr {
+   color: var(--icons-color);
+}
 /* common */
 :root {
     --back-ground-color-1: #009688;
@@ -40,6 +44,9 @@ li {
 /* /common */
 
 /* utilities */
+.flex {
+    display: flex;
+}
 /* /utulities */
 
 /* container */
@@ -112,10 +119,7 @@ li {
     color: var(--icons-color);
 }
 
-.header-message .avatar {
-    display: flex;
-    flex-direction: row;
-}
+
 .notifications {
     background-color: var(--notification-color);
     height: 65px;
@@ -173,9 +177,26 @@ li {
     overflow-y: scroll;
     flex-basis: 100%;
 }
+
+.card {
+    padding: 10px;
+    gap: 10px;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+
+.card h4, .time {
+    color: var(--icons-color);
+}
+
 /* /contacts */
 
 /* message */
+
+.header-message .avatar {
+    display: flex;
+    flex-direction: row;
+}
 .message {
     width: calc(100% - 300px);
     height: 100%;

@@ -37,10 +37,18 @@
     margin: 0 auto;
    }
 
+   .name-message, .time {
+    display: none;
+   }
+
 }
 
 @media screen and (max-width: 428px) {
     .contacts {
+        display: none;
+    }
+
+    .list-icons ul {
         display: none;
     }
 }
