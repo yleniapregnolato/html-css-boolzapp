@@ -63,10 +63,6 @@
         height: 100vh;
     }
 
-    .right-message, .left-message {
-        height: 150px;
-    }
-
     .col:nth-child(n) {
         padding: 15px;
     }
@@ -75,10 +71,6 @@
 @media screen and (max-width: 428px) {    
     .message {
         width: 100%;
-    }
-
-    .right-message, .left-message {
-        height: 150px;
     }
 
     .col:nth-child(n) {

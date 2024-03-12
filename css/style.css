@@ -215,7 +215,7 @@ li {
     background-image: url(../img/mine.jpg);
     overflow-y: scroll;
 }
-.col:nth-child(1){ 
+.col:nth-child(odd){ 
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -225,11 +225,10 @@ li {
     width: 60%;
     background-color: var(--message-send-color);
     border-radius: 10px;
-    /* debug */
-    height: 80px;
+    padding: 15px;
 }
 
-.col:nth-child(2) {
+.col:nth-child(even) {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -243,8 +242,7 @@ li {
     width: 60%;
     background-color: white;
     border-radius: 10px;
-    /* debug */
-    height: 90px;
+    padding: 15px;
 }
 
 footer {
