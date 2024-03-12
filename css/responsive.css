@@ -13,7 +13,7 @@
     }
 
     .contacts {
-        width: 10%;
+        width: 80px;
         height: 100vh;
     }
 
@@ -23,6 +23,10 @@
 
     .search {
         display: none;
+    }
+
+    .message-contacts {
+        padding: 0;
     }
 }
 
@@ -38,7 +42,7 @@
 
 @media screen and (max-width: 768px) {
     .message {
-        width: 90%;
+        width: calc(100% - 80px);
         height: 100vh;
     }
 
