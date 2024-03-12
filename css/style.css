@@ -63,11 +63,30 @@ li {
     height: 60px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 #header-contacts {
     background-color: var(--header-color);
 }
 
+.avatar {
+    display: flex;
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.access h3 {
+    font-size: 0.9em;
+}
+
+.access h4 {
+    font-size: 0.75rem;
+    color: var(--icons-color);
+}
 .avatar img {
     height: 50px;
     width: 50px;
@@ -137,9 +156,17 @@ li {
     width: 100%;
     height: 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
 }
-
+.new-chat {
+    height: 30px;
+    color: var(--icons-color);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+}
 .message-contacts {
     background-color: white;
     padding: 10px 0;
