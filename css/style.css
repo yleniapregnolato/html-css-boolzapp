@@ -253,6 +253,7 @@ li {
     justify-content: space-between;
     color: var(--icons-color);
     padding-left: 15px;
+    font-size: 0.8rem;
 }
 
 .fa-chevron-down {
