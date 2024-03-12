@@ -85,6 +85,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 10px;
 }
 
 .access h3 {
