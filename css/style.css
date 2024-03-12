@@ -58,6 +58,7 @@
 .notifications {
     background-color: var(--notification-color);
     height: 65px;
+    flex-shrink: 0;
 }
 
 .search {
