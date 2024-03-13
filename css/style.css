@@ -248,6 +248,8 @@ li {
 }
 
 .left-message {
+    display: flex;
+    justify-content: space-between;
     width: 60%;
     background-color: white;
     border-radius: 10px;
